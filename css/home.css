@@ -5,13 +5,13 @@
 }
 
 .active-page {
-  text-decoration: underline;
+  border-bottom: solid 4px #919191;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(243, 243, 243);
+  background-color: #f3f3f3;
 }
 
 .wrapper {
@@ -19,8 +19,8 @@ body {
   margin: 0 auto;
   padding: 0;
 }
-header {
-}
+/* header {
+} */
 nav {
   margin: 0;
   padding: 0;
@@ -34,26 +34,53 @@ ul {
   align-self: center;
 }
 li {
-  font-size: 1.4em;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder;
+  
   margin: 0;
   padding: 0;
   display: inline;
   margin-right: 25px;
 }
+
+li button {
+  font-size: 1.4em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  border: none;
+  background-color: #f3f3f3;
+  
+}
+
 a {
   text-decoration: none;
+  
 }
 
-header nav li a,
-header nav li a:visited {
-  color: rgb(121, 216, 133);
+
+
+.home-link, .home-link:visited {
+  color: rgb(112, 112, 112);
+}
+.home-link:active, .home-link:hover {
+  color: rgb(0, 0, 0);
+  border-bottom: solid 4px #000000;
 }
 
-header nav li a:hover {
-  color: rgb(39, 160, 45);
+.concepts-link, .concepts-link:visited {
+  color: #4ADBFB;
 }
+.concepts-link:active, .concepts-link:hover {
+  color: #13a0c0;
+  border-bottom: solid 4px #13a0c0;
+}
+
+.macapps-link, .macapps-link:visited {
+  color: #ff6b6b;
+}
+.macapps-link:active, .macapps-link:hover {
+  color: #c43131;
+  border-bottom: solid 4px #c43131;;
+}
+
 
 .logo {
   width: 100px;
