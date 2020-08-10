@@ -1,0 +1,11 @@
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.logo-apps {
+    background-color: royalblue;
+    width: 400px;
+    height: 120px;
+}

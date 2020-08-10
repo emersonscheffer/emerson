@@ -5,7 +5,7 @@
 }
 
 .active-page {
-  border-bottom: solid 4px #919191;
+  border-bottom: solid 4px #e2e2e2;
 }
 
 body {
@@ -14,11 +14,7 @@ body {
   background-color: #f3f3f3;
 }
 
-.wrapper {
-  width: 900px;
-  margin: 0 auto;
-  padding: 0;
-}
+
 /* header {
 } */
 nav {
